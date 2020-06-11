@@ -1,0 +1,54 @@
+{
+  "name": "orionmax/yii2-video-hosting-service-behavior",
+  "description": "Video hosting service behavior for Yii2 Framework.",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii2",
+    "yii 2",
+    "video hosting service",
+    "video hosting",
+    "video sharing site",
+    "video clips",
+    "video",
+    "YouTube",
+    "Vimeo",
+    "Rutube",
+    "Dailymotion"
+  ],
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Maksym Ivanov",
+      "email": "ivanovmaxim.w@gmail.com",
+      "homepage": "https://github.com/OrionMax"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/OrionMax/yii2-video-hosting-service-behavior/issues?state=open",
+    "source": "https://github.com/OrionMax/yii2-video-hosting-service-behavior"
+  },
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "~2.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "orionmax\\yii\\videohosting\\" : "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "orionmax\\yii\\videohosting\\tests\\" : "tests/"
+    }
+  },
+  "extra": {
+    "asset-installer-paths": {
+      "npm-asset-library": "vendor/npm",
+      "bower-asset-library": "vendor/bower"
+    }
+  }
+}
